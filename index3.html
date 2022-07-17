@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel = "stylesheet" href="style.css">
+    <script src="https://code.tidio.co/iy00gutmwi2ln9cjnqv3v890zzdy1i9b.js" async></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">
+   
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+
+
+    <title>Document</title>
+</head>
+<body id = "body"> 
+    
+    <div class="topnav">
+        <a class="active" href="index.html">Home</a>
+        <a class = "active" href="index2.html">More on E-Learning</a>
+        <a class = "active" href="index3.html">CBT/WBT</a>
+        <div class="topnav-right">
+          <a class = "active" href="index4.html">Mobile learning</a>
+          <a class = "active" href="index5.html">Contact Us</a>
+        </div>
+      </div>
+
+      <div>
+        <img src="logo.jpg" align = "left" id = "logo">
+        <br>            
+    <h1 align = "center" id="header3"><font color = "black" face = "Cookie"><b>Types of E-Learning</b></font></h1>
+    <br>
+    <br>
+    <h1 id = "Welcome">Welcome Back ~</h1>
+    <hr size = 6 color = black>
+        </div>
+    <font id = "main">The two main ways of E-Learning are :-</font>
+    <dl>
+        <dt id = "ul">Computer-based training (CBT)</dt>
+        <dd>
+            <ul id = "ul">
+                <li>Computer-based training is usually restricted to certain content.</li>
+                <li>The participants of a course are provided with content that does not require internet access. For example, via a CD-ROM or DVD.</li>
+                <li>Exemplary fields of application for computer-based training are software training, learning languages, corporate advanced training and child learning programs.</li>
+                <li>Further synonyms for online learning with the computer are computer-based learning or the outdated term telelearning.</li>
+            </ul>
+        </dd>
+
+        <dt id = "ol">Web-based training (WBT)</dt>
+        <dd>
+            <ul id = "ol">
+                <li>Web-based learning formats such as web-based training (WBT) are the natural progression of computer-based training.</li>
+                <li>Participants require internet access for web-based training.</li>
+                <li>They attend a virtual classroom together.</li>
+                <li>The learning content is retrieved not from a physical data medium, but rather online via internet or intranet.
+                </li>
+                <li>A synchronous or asynchronous computer-based communication and interaction between participants, other learners and teachers is possible with WBT.</li>
+                <li>A synonym for web-based training is the term web-based learning (WBL).</li>
+
+
+            </ul>
+        </dd>
+    </dl>
+
+    <!----cursor --->
+    <div id = "cursor"></div>
+
+    <script>
+      var cursor = document.getElementById("cursor");
+
+      document.onmousemove = function(e){
+        cursor.style.left = (e.pageX -25) + "px";
+        cursor.style.top = (e.pageY - 25) + "px";
+
+        cursor.style.display = "block"
+      }
+
+
+
+    </script>
+
+    
+</body>
+</html>

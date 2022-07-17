@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>Page Title</title>
+   <link rel="stylesheet" href="style.css">
+   
+  <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+
+
+  <script src="main.js"></script>
+
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">
+
+   <link
+   rel="stylesheet"
+   href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+ />
+  </head>
+<body  id = "body">
+
+    <div class="topnav">
+        <a class="active" href="index.html">Home</a>
+        <a class = "active" href="index2.html">More on E-Learning</a>
+        <a class = "active" href="index3.html">CBT/WBT</a>
+        <div class="topnav-right">
+          <a class = "active" href="index4.html">Mobile learning</a>
+          <a class = "active" href="index5.html">Contact Us</a>
+        </div>
+      </div>
+    
+     <div> 
+      <img src="logo.jpg" align = "left" id = "logo">
+    <div class="wrapper">
+         <h1 align = "center" id="header"><font color = "black" face = "Cookie"><b>E-Learning</b></font></h1>
+      </div>
+    <h1 id = "Welcome">Welcome ~</h1>
+
+     </div>
+
+
+    <hr size = 6 color = black>
+    <p style = "font-family: comic sans ms;">
+            
+     <p style = "text-align:right">   
+        <table align = "right" border="3" id = "table">
+        <th>
+        <form id = "myform">
+         <font size = 6 face = "Cookie" color = "white">   
+        <h1>Register Now !</h1>
+
+        </font>
+        <p align = "left">
+        <input type="text" class="text" placeholder="Name" required />
+        
+        <br>
+
+        
+        <input type="password" class="password" placeholder="Password" required />
+        
+        <br>
+
+        <button class="button" onclick="alert ('Thank you ! Your response has been submitted')" >
+          Register Now
+        </button>
+        </p>     
+       
+        </form>
+        
+ 
+
+        </th>
+        </table>
+
+
+
+        <p >
+        
+        <img src = "education image.jpg" height = "250  " width = "450" align = "right" id = "img" >
+        <font size = 7 face = "Cookie " id = "learning">A learning system based on formalised teaching but with the help of electronic resources is known as E-learning.</font>
+        <br>
+        <br>
+        <br>
+        <font size = 7 face = "Cookie" >In other words we can say that E-learning means learning different educational skill using the internet.</font>
+    </p>
+        
+        <center><iframe height="300" width="600" src = "https://www.youtube.com/embed/viHILXVY_eU" ></iframe></center>
+    <a href="index2.html" align = "right" id = "next1"><div style="text-align: right;" class="next"><marquee id = "marquee">Go Next <img src = "arrow.png" height="40" width="40"></marquee></div></a>
+
+      
+    <!----cursor --->
+    <div id = "cursor"></div>
+
+    <script>
+      var cursor = document.getElementById("cursor");
+
+      document.onmousemove = function(e){
+        cursor.style.left = (e.pageX -25) + "px";
+        cursor.style.top = (e.pageY - 25) + "px";
+
+        cursor.style.display = "block"
+      }
+
+
+
+    </script>
+    
+    </p>
+    </p>
+       
+</body>
+</html>
